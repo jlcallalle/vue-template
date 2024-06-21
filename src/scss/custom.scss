@@ -1,0 +1,75 @@
+@import "./variables";
+@import "~bootstrap";
+@import "./theme";
+
+/* Vista Home */
+
+.bg-brand {
+    background-color: $brand-color;
+}
+.bg-gray {
+    background-color: $grey-dark;
+}
+.bg-gray-light {
+    background-color: $grey-light
+}
+
+.sidebar-brand {
+    padding: 0 10px;
+}
+.logo-brand {
+    max-width: 250px;
+}
+
+.footer {
+    padding: 1rem 0;
+}
+
+.radius  {
+    border-radius: 2rem;
+}
+
+.box-login {
+    position: relative;
+    padding: 60px 20px 40px 20px;
+    max-width: 600px;
+    margin: 5rem auto 0 auto;
+    .title {
+        text-align: center;
+    }
+}
+
+.box-botton {
+    padding: 0 3.5rem;
+    display: flex;
+    flex-direction: column;
+    button {
+        margin-bottom: 1rem;
+    }
+}
+
+.box-descargas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    a {
+        margin-bottom: 1rem;
+    }
+}
+
+.circle {
+    border: 1px solid;
+    width: 80px;
+    height: 80px;
+    background-color: #575756;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    position: absolute;
+    top: -44px;
+    left: 43%;
+    img {
+        width: 60px;
+    }
+}

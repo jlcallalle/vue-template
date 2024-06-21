@@ -1,0 +1,38 @@
+// WIDGET GLOBAL THEME STYLES
+
+// EXAMPLE, you can remove this styles
+.btn {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  // border-radius: 50px;
+  border-radius: 15px;
+  font-size: 14px;
+  padding: 0.50rem 1.25rem;
+}
+
+.btn-lg {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $blue;
+  border-color: $blue;
+}
+
+.btn-outline-primary {
+  color: $blue;
+  border-color: $blue;
+}
+
+
+.btn-outline-success {
+	color: $brand-color;
+	border-color: $brand-color;
+    &:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: $brand-color;
+        border-color: $brand-color;
+    }
+}

@@ -1,6 +1,7 @@
 /* eslint-disable global-require */
 import Vue from 'vue';
 import App from './App.vue';
+import router from './router';
 import store from './store';
 import i18n from './i18n';
 import './vee-validate-config';
@@ -18,6 +19,7 @@ if (process.env.NODE_ENV === 'development') {
 Vue.config.productionTip = false;
 
 new Vue({
+  router,
   store,
   i18n,
   render: (h) => h(App),

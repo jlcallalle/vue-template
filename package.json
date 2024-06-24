@@ -34,6 +34,7 @@
     "vue": "^2.6.12",
     "vue-axe": "^2.4.4",
     "vue-i18n": "^8.24.1",
+    "vue-router": "^3.6.5",
     "vuex": "^3.6.2"
   },
   "devDependencies": {

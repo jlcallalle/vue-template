@@ -31,18 +31,20 @@
 
 .box-login {
     position: relative;
-    padding: 60px 20px 40px 20px;
+    padding: 50px 20px 40px 20px;
     max-width: 600px;
-    margin: 5rem auto 0 auto;
+    margin: 4.5rem auto 0 auto;
     .title {
         text-align: center;
     }
 }
 
-.box-botton {
+.box-form-login {
     padding: 0 3.5rem;
     display: flex;
     flex-direction: column;
+    max-width: 380px;
+    margin: 0 auto;
     button {
         margin-bottom: 1rem;
     }
